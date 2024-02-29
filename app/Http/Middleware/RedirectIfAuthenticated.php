@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Http\Middleware;
+namespace GeoApp\App\Http\Middleware;
 
-use App\Providers\RouteServiceProvider;
+useGeoApp\App\Providers\RouteServiceProvider;
 use Closure;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;

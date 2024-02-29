@@ -163,11 +163,11 @@ return [
         /*
          * Application Service Providers...
          */
-        App\Providers\AppServiceProvider::class,
-        App\Providers\AuthServiceProvider::class,
-        // App\Providers\BroadcastServiceProvider::class,
-        App\Providers\EventServiceProvider::class,
-        App\Providers\RouteServiceProvider::class,
+       GeoApp\App\Providers\AppServiceProvider::class,
+       GeoApp\App\Providers\AuthServiceProvider::class,
+        //GeoApp\App\Providers\BroadcastServiceProvider::class,
+       GeoApp\App\Providers\EventServiceProvider::class,
+       GeoApp\App\Providers\RouteServiceProvider::class,
     ])->toArray(),
 
     /*
@@ -182,7 +182,7 @@ return [
     */
 
     'aliases' => Facade::defaultAliases()->merge([
-        // 'Example' => App\Facades\Example::class,
+        // 'Example' =>GeoApp\App\Facades\Example::class,
     ])->toArray(),
 
 ];
